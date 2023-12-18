@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-content{
+background-color:#fff;
+margin: 50px;
+height: 80vh;
+width: 90%;
+box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+border-radius: 20px;
+}
+.navBar{
+   
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    height: 50px;
+    
+ 
+   
+}
+.navBar-aroow i{
+    padding: 10px;
+    margin-top: 10px;
+    align-items: center;
+
+}
+.paragraph{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.paragraph p{
+    align-items: center;
+    margin-top: 15px;
+
+
+
+}
+.text{
+    font-size: 20px;
+    border-left: 1px solid black;
+    text-align: center;
+    position: relative;
+    left: 15px;
+    width: 100px;
+    
+}
+.text b , i{
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+.underLine{
+    text-decoration: underline;
+}
+.textContent{
+    border-left: 1px solid black;
+}
+.textContent img{
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+
+}
+
+.deletName{
+    font-size: 20px;
+    position: relative;
+    left: 300px;
+}
+/* ========================input==================== */
+.main-content textarea{
+
+    border: none;
+    width: 100%;
+    height: 75%;
+    overflow: hidden;
+    position: relative;
+    top: -17px;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 16px;
+}
+.input {
+  border: none;
+  outline: none;
+  /* border-radius: 15px; */
+  padding: 1em;
+  background-color: #e7e5e5;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+}
+
+.input:focus {
+  background-color: white;
+    border-radius: 15px;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696,
+             -13px -13px 100px #ffffff;
+}
+.footer{
+    display: flex;
+margin-left: 25px;
+
+}
+.chat-word{
+    display: flex;
+    gap: 10px;
+    /* font-style: italic; */
+}
+
+
+.container {
+    width: 80px;
+    height: 31px;
+    position: relative;
+  }
+  
+  /* Hide default HTML checkbox */
+  .checkbox {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+  }
+  
+  .switch {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #e9e9eb;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+  }
+  
+  /* The slider */
+  .slider {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: calc(50% - 27px/2 - 10px);
+    top: calc(50% - 27px/2);
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 3px 1px rgba(0, 0, 0, 0.06);
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+  
+  }
+  
+  .checkbox:checked + .switch {
+    background-color: #34C759;
+  }
+  
+  .checkbox:checked + .switch .slider {
+    left: calc(50% - 27px/2 + 10px);
+    top: calc(50% - 27px/2);
+  }
+
+  .footer-fb{
+    display: flex;
+    gap: 10px;
+
+  }
+  .fa-brands{
+    font-size: 25PX;
+    
+
+  }
